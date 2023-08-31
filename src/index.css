@@ -1,0 +1,143 @@
+/* Reusable CSS to remove default padding and margin */
+.__prc_remove-pm {
+  padding: 0;
+  margin: 0;
+}
+
+.__prc_opt_main-container {
+  max-width: 500px;
+}
+
+/* calendar header section */
+.__prc_com_header {
+  display: flex;
+  align-items: center;
+}
+
+.__prc_opt_header {
+  gap: 28px;
+}
+
+/*Current date text (opt-left-header-container)*/
+.__prc_opt_current-date-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(32, 31, 31);
+}
+
+.__prc_com_right-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.__prc_opt_right-header-container {
+  gap: 10px;
+}
+
+.__prc_com_header_year_container {
+  display: flex;
+  align-items: center;
+}
+
+.__prc_opt_header-year-container {
+  gap: 2px;
+}
+
+.__prc_opt_header-year-text {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.__prc_com_header-month-container {
+  display: flex;
+  align-items: center;
+}
+
+.__prc_opt_header-month-container {
+  gap: 2px;
+}
+
+.__prc_opt_header-month-text {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.__prc_com_header_icon {
+  user-select: none;
+  cursor: pointer;
+}
+
+.__prc_opt_header-icon {
+  color: rgb(75, 74, 74);
+}
+
+/* Calendar body section */
+.__prc_com_cal-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.__prc_opt_cal-grid {
+  margin-top: 38px;
+  gap: 12px;
+}
+
+.__prc_com_day-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.__prc_opt_day-text {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 550;
+  color: gray;
+}
+
+/* Date CSS like 1, 2, 3, ... */
+.__prc_com_date {
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.__prc_opt_date {
+  font-weight: 550;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.__prc_opt_current-date {
+  color: black;
+  background-color: aqua;
+}
+
+.__prc_opt_selected-date {
+  color: white !important;
+  background-color: blue;
+}
+
+.__prc_opt_off-day {
+  color: red;
+}
+
+.__prc_opt_extra-date-in-grid {
+  color: gray;
+}
+
+.__prc_com_disable-date {
+  cursor: not-allowed !important;
+}
+
+.__prc_opt_disable-date {
+  color: gray !important;
+  background-color: transparent !important;
+}
+
+.__prc_opt_disable-day-off {
+  cursor: not-allowed !important;
+}
