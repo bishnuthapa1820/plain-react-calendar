@@ -280,9 +280,7 @@ export default function PlainReactCalendar({
   }
 
   return (
-    <div
-      className={cn("__prc_opt_main-container", all_classnames?.mainContainer)}
-    >
+    <div className={cn(all_classnames.mainContainer)}>
       {!isHideHeader && !customHeader ? (
         <div className={cn("__prc_com_header", all_classnames.header)}>
           <p className={cn("__prc_remove-pm", all_classnames.currentDateText)}>
@@ -305,7 +303,7 @@ export default function PlainReactCalendar({
                   size={iconHeaderSize}
                   type="chevrons-left"
                   className={cn(
-                    "_prc_com_header_icon",
+                    "__prc_com_header_icon",
                     all_classnames.headerIcon
                   )}
                 />
@@ -320,7 +318,7 @@ export default function PlainReactCalendar({
                   size={iconHeaderSize}
                   type="chevrons-right"
                   className={cn(
-                    "_prc_com_header_icon",
+                    "__prc_com_header_icon",
                     all_classnames.headerIcon
                   )}
                 />
@@ -341,7 +339,7 @@ export default function PlainReactCalendar({
                   size={iconHeaderSize}
                   type="chevron-left"
                   className={cn(
-                    "_prc_com_header_icon",
+                    "__prc_com_header_icon",
                     all_classnames.headerIcon
                   )}
                 />
@@ -359,7 +357,7 @@ export default function PlainReactCalendar({
                   size={iconHeaderSize}
                   type="chevron-right"
                   className={cn(
-                    "_prc_com_header_icon",
+                    "__prc_com_header_icon",
                     all_classnames.headerIcon
                   )}
                 />
